@@ -1,6 +1,6 @@
 <?php
 
-namespace Optimus\Api\System\Translation;
+namespace SanjuInapp\DistributedLaravel\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Translation\FileLoader;

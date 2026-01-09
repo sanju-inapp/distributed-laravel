@@ -1,10 +1,10 @@
 <?php
 
-namespace Optimus\Api\System;
+namespace SanjuInapp\DistributedLaravel;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\View\ViewServiceProvider as BaseViewServiceProvider;
-use Optimus\Api\System\Utilities;
+use SanjuInapp\DistributedLaravel\Utilities;
 
 class ViewServiceProvider extends BaseViewServiceProvider
 {

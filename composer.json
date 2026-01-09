@@ -1,11 +1,16 @@
 {
-    "name": "optimus/distributed-laravel",
-    "autoload": {
-        "psr-4": {
-            "Optimus\\Api\\System\\": "src/"
+    "name": "sanju-inapp/distributed-laravel",
+    "description": "Service providers to enable a Laravel project structure that is grouped by components rather than class types",
+    "keywords": ["laravel", "distributed", "components", "service providers"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sanju",
+            "email": "sanju@example.com"
         }
-    },
+    ],
     "require": {
+        "php": "^8.1|^8.2|^8.3|^8.4",
         "laravel/framework": "~10.0|~11.0|~12.0"
     },
     "require-dev": {
@@ -14,7 +19,16 @@
         "phpunit/phpunit": "^11.0",
         "php-coveralls/php-coveralls": "2.7.*"
     },
+    "autoload": {
+        "psr-4": {
+            "SanjuInapp\\DistributedLaravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SanjuInapp\\DistributedLaravel\\Tests\\": "tests/"
+        }
+    },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "license": "MIT"
+    "prefer-stable": true
 }

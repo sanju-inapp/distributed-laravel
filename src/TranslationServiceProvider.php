@@ -1,10 +1,10 @@
 <?php
 
-namespace Optimus\Api\System;
+namespace SanjuInapp\DistributedLaravel;
 
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
-use Optimus\Api\System\Translation\DistributedFileLoader;
-use Optimus\Api\System\Utilties;
+use SanjuInapp\DistributedLaravel\Translation\DistributedFileLoader;
+use SanjuInapp\DistributedLaravel\Utilties;
 
 class TranslationServiceProvider extends BaseTranslationServiceProvider
 {
